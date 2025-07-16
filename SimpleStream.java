@@ -28,6 +28,7 @@ public class SimpleStream {
 //        System.out.println(optional3.isPresent());
         optional3.ifPresentOrElse(System.out::print, () -> System.out.println("empty") );
 
+        
 
 
 //        System.out.println("optional1 isPresent: " + optional1.isPresent()); // true
